@@ -1,6 +1,6 @@
 const GOAL_2026 = 30;
 const ZODIAC_ORDER = ["aries","taurus","gemini","cancer","leo","virgo","libra","scorpio","sagittarius","capricorn","aquarius","pisces"];
-const RATING_STEPS = [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5];
+const RATING_STEPS = [1, 2, 3, 4, 5];
 
 const PLACEHOLDER_COVER = "data:image/svg+xml;utf8," + encodeURIComponent(
   `<svg xmlns="http://www.w3.org/2000/svg" width="200" height="300"><rect width="200" height="300" fill="#e1e0d9"/><text x="50%" y="50%" font-family="sans-serif" font-size="16" fill="#898781" text-anchor="middle" dy=".3em">No cover</text></svg>`
@@ -213,7 +213,7 @@ function renderList(books) {
           </div>
           <div class="book-card__rating">
             ${starsHtml(b.rating)}
-            <span class="rating-num">${b.rating != null ? b.rating.toFixed(1) + " / 5" : "—"}</span>
+            <span class="rating-num">${b.rating != null ? b.rating + " / 5" : "—"}</span>
           </div>
         </div>
       </article>
