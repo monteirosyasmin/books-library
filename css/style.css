@@ -293,7 +293,7 @@ main {
   row-gap: 10px;
   column-gap: 10px;
   align-items: center;
-  align-content: center;
+  align-content: space-evenly;
 }
 
 .hbarchart__row {
