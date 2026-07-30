@@ -132,38 +132,6 @@ function renderByRatingChart(books) {
   });
 }
 
-function renderByTropeChart(books) {
-  const lang = getLang();
-  const counts = {};
-  books.forEach((b) => {
-    const trope = b.trope && b.trope[lang];
-    if (trope) counts[trope] = (counts[trope] || 0) + 1;
-  });
-  const entries = Object.entries(counts).sort((a, b) => b[1] - a[1]);
-  const max = Math.max(1, ...entries.map((e) => e[1]));
-
-  const wrap = document.getElementById("chart-bytrope");
-  wrap.innerHTML = "";
-
-  if (entries.length === 0) {
-    wrap.innerHTML = `<span style="color:var(--text-muted);font-size:0.85rem;">—</span>`;
-    return;
-  }
-
-  entries.forEach(([trope, count]) => {
-    const pct = (count / max) * 100;
-    const row = document.createElement("div");
-    row.className = "hbarchart__row";
-    row.innerHTML = `
-      <span class="hbarchart__label">${trope}</span>
-      <div class="hbarchart__track"><div class="hbarchart__fill" style="width:${pct}%"></div></div>
-      <span class="hbarchart__value">${count}</span>
-    `;
-    attachRowTooltip(row, () => `${trope}: ${count}`);
-    wrap.appendChild(row);
-  });
-}
-
 /* ---------------------------- filters/sort ---------------------------- */
 
 function populateFilterOptions(books) {
@@ -259,7 +227,6 @@ function renderAll(books) {
   renderMeter(books);
   renderByMonthChart(books);
   renderByRatingChart(books);
-  renderByTropeChart(books);
   populateFilterOptions(books);
   renderList(books);
 }

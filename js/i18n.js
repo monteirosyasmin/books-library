@@ -17,7 +17,6 @@ const I18N = {
     "dashboard.goal.of": "of {goal} books",
     "dashboard.bymonth.title": "Books by Month",
     "dashboard.byrating.title": "Books by Rating",
-    "dashboard.bytrope.title": "Books by Trope",
 
     "controls.genre": "Genre",
     "controls.trope": "Trope",
@@ -70,7 +69,6 @@ const I18N = {
     "dashboard.goal.of": "de {goal} livros",
     "dashboard.bymonth.title": "Livros por Mês",
     "dashboard.byrating.title": "Livros por Nota",
-    "dashboard.bytrope.title": "Livros por Trope",
 
     "controls.genre": "Gênero",
     "controls.trope": "Trope",
