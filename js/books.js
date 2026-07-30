@@ -106,7 +106,7 @@ function renderByRatingChart(books) {
   RATING_STEPS.forEach((r) => (counts[r] = 0));
   books.forEach((b) => { if (b.rating != null) counts[b.rating] = (counts[b.rating] || 0) + 1; });
 
-  const present = RATING_STEPS.filter((r) => counts[r] > 0).sort((a, b) => b - a);
+  const present = [...RATING_STEPS].sort((a, b) => b - a);
   const max = Math.max(1, ...present.map((r) => counts[r]));
 
   const wrap = document.getElementById("chart-byrating");
