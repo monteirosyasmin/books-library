@@ -164,6 +164,8 @@ main {
 }
 
 .viz-card {
+  display: flex;
+  flex-direction: column;
   background: var(--surface-1);
   border: 1px solid var(--border);
   border-radius: var(--radius-card);
@@ -175,12 +177,18 @@ main {
 }
 
 .viz-card__title {
+  flex: 0 0 auto;
   font-size: 0.78rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   color: var(--text-muted);
   margin: 0 0 14px;
+}
+
+.viz-card > .barchart,
+.viz-card > .hbarchart {
+  flex: 1;
 }
 
 /* Progress meter */
@@ -278,18 +286,18 @@ main {
   white-space: nowrap;
 }
 
-/* Horizontal bar chart (tropes) */
+/* Horizontal bar chart (tropes, rating) */
 .hbarchart {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+  display: grid;
+  grid-template-columns: max-content 1fr 28px;
+  row-gap: 10px;
+  column-gap: 10px;
+  align-items: center;
+  align-content: center;
 }
 
 .hbarchart__row {
-  display: grid;
-  grid-template-columns: 120px 1fr 28px;
-  align-items: center;
-  gap: 10px;
+  display: contents;
 }
 
 .hbarchart__label {
@@ -297,8 +305,6 @@ main {
   color: var(--text-secondary);
   text-align: right;
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 .hbarchart__track {

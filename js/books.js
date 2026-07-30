@@ -31,6 +31,13 @@ function attachTooltip(el, textFn) {
   el.addEventListener("mouseleave", () => tip.classList.remove("is-visible"));
 }
 
+// hbarchart__row uses display:contents (so its children share one shared
+// grid with the rest of the chart) — it has no box, so hover listeners
+// must go on each child instead of the row itself.
+function attachRowTooltip(row, textFn) {
+  Array.from(row.children).forEach((child) => attachTooltip(child, textFn));
+}
+
 function starsHtml(rating) {
   const pct = rating != null ? Math.max(0, Math.min(100, (rating / 5) * 100)) : 0;
   return `
@@ -99,7 +106,7 @@ function renderByRatingChart(books) {
   RATING_STEPS.forEach((r) => (counts[r] = 0));
   books.forEach((b) => { if (b.rating != null) counts[b.rating] = (counts[b.rating] || 0) + 1; });
 
-  const present = RATING_STEPS.filter((r) => counts[r] > 0);
+  const present = RATING_STEPS.filter((r) => counts[r] > 0).sort((a, b) => b - a);
   const max = Math.max(1, ...present.map((r) => counts[r]));
 
   const wrap = document.getElementById("chart-byrating");
@@ -120,7 +127,7 @@ function renderByRatingChart(books) {
       <div class="hbarchart__track"><div class="hbarchart__fill" style="width:${pct}%"></div></div>
       <span class="hbarchart__value">${count}</span>
     `;
-    attachTooltip(row, () => `${r} ★: ${count}`);
+    attachRowTooltip(row, () => `${r} ★: ${count}`);
     wrap.appendChild(row);
   });
 }
@@ -152,7 +159,7 @@ function renderByTropeChart(books) {
       <div class="hbarchart__track"><div class="hbarchart__fill" style="width:${pct}%"></div></div>
       <span class="hbarchart__value">${count}</span>
     `;
-    attachTooltip(row, () => `${trope}: ${count}`);
+    attachRowTooltip(row, () => `${trope}: ${count}`);
     wrap.appendChild(row);
   });
 }
