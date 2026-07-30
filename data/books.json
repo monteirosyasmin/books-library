@@ -1,7 +1,10 @@
 [
   {
     "id": "ready-or-not",
-    "title": "Ready or Not",
+    "title": {
+      "en": "Ready or Not",
+      "pt": "Quando Menos Se Espera"
+    },
     "author": "Cara Bastone",
     "coverUrl": "https://covers.openlibrary.org/b/id/14578799-L.jpg",
     "dateRead": "2026-07",
@@ -23,7 +26,10 @@
   },
   {
     "id": "sweet-heat",
-    "title": "Sweet Heat",
+    "title": {
+      "en": "Sweet Heat",
+      "pt": "Sweet Heat"
+    },
     "author": "Bolu Babalola",
     "coverUrl": "https://m.media-amazon.com/images/P/0063306980.01._SX500_.jpg",
     "dateRead": "2026-07",
@@ -45,7 +51,10 @@
   },
   {
     "id": "honey-and-spice",
-    "title": "Honey & Spice",
+    "title": {
+      "en": "Honey & Spice",
+      "pt": "Pimenta e Mel"
+    },
     "author": "Bolu Babalola",
     "coverUrl": "https://covers.openlibrary.org/b/id/12801037-L.jpg",
     "dateRead": "2026-07",
@@ -67,7 +76,10 @@
   },
   {
     "id": "the-girl-i-was",
-    "title": "The Girl I Was",
+    "title": {
+      "en": "The Girl I Was",
+      "pt": "The Girl I Was"
+    },
     "author": "Jeneva Rose",
     "coverUrl": "assets/covers/the-girl-i-was.jpg",
     "dateRead": "2026-07",
@@ -89,7 +101,10 @@
   },
   {
     "id": "northern-stars",
-    "title": "Northern Stars",
+    "title": {
+      "en": "Northern Stars",
+      "pt": "Estrelas do Norte"
+    },
     "author": "Brittainy C. Cherry",
     "coverUrl": "https://m.media-amazon.com/images/P/B0B8LD53F7.01._SX500_.jpg",
     "dateRead": "2026-06",
@@ -111,7 +126,10 @@
   },
   {
     "id": "estupido-cupido",
-    "title": "Estúpido Cupido",
+    "title": {
+      "en": "Estúpido Cupido",
+      "pt": "Estúpido Cupido"
+    },
     "author": "Ayslan Monteiro",
     "coverUrl": "https://m.media-amazon.com/images/P/6559704726.01._SX500_.jpg",
     "dateRead": "2026-06",
@@ -133,7 +151,10 @@
   },
   {
     "id": "eastern-lights",
-    "title": "Eastern Lights",
+    "title": {
+      "en": "Eastern Lights",
+      "pt": "Luzes do Leste"
+    },
     "author": "Brittainy C. Cherry",
     "coverUrl": "https://covers.openlibrary.org/b/id/13461300-L.jpg",
     "dateRead": "2026-06",
@@ -155,7 +176,10 @@
   },
   {
     "id": "southern-storms",
-    "title": "Southern Storms",
+    "title": {
+      "en": "Southern Storms",
+      "pt": "Tempestades do Sul"
+    },
     "author": "Brittainy C. Cherry",
     "coverUrl": "https://covers.openlibrary.org/b/id/12993551-L.jpg",
     "dateRead": "2026-06",
@@ -177,7 +201,10 @@
   },
   {
     "id": "our-perfect-storm",
-    "title": "Our Perfect Storm",
+    "title": {
+      "en": "Our Perfect Storm",
+      "pt": "Our Perfect Storm"
+    },
     "author": "Carley Fortune",
     "coverUrl": "https://covers.openlibrary.org/b/id/15235162-L.jpg",
     "dateRead": "2026-05",
@@ -199,7 +226,10 @@
   },
   {
     "id": "western-waves",
-    "title": "Western Waves",
+    "title": {
+      "en": "Western Waves",
+      "pt": "Ondas do Oeste"
+    },
     "author": "Brittainy C. Cherry",
     "coverUrl": "https://covers.openlibrary.org/b/id/12993530-L.jpg",
     "dateRead": "2026-05",
@@ -221,7 +251,10 @@
   },
   {
     "id": "untamed",
-    "title": "Untamed",
+    "title": {
+      "en": "Untamed",
+      "pt": "Indomável"
+    },
     "author": "Glennon Doyle",
     "coverUrl": "https://covers.openlibrary.org/b/id/9295686-L.jpg",
     "dateRead": "2026-04",
@@ -243,7 +276,10 @@
   },
   {
     "id": "the-unmaking-of-june-farrow",
-    "title": "The Unmaking of June Farrow",
+    "title": {
+      "en": "The Unmaking of June Farrow",
+      "pt": "Os Descaminhos de June Farrow"
+    },
     "author": "Adrienne Young",
     "coverUrl": "https://covers.openlibrary.org/b/id/14434055-L.jpg",
     "dateRead": "2026-03",
@@ -265,7 +301,10 @@
   },
   {
     "id": "odisseia-estelar",
-    "title": "Odisseia Estelar",
+    "title": {
+      "en": "Odisseia Estelar",
+      "pt": "Odisseia Estelar"
+    },
     "author": "Kim Bo-young",
     "coverUrl": "https://m.media-amazon.com/images/P/8556512771.01._SX500_.jpg",
     "dateRead": "2026-03",
@@ -287,7 +326,10 @@
   },
   {
     "id": "im-waiting-for-you",
-    "title": "I'm Waiting for You and Other Stories",
+    "title": {
+      "en": "I'm Waiting for You and Other Stories",
+      "pt": "I'm Waiting for You and Other Stories"
+    },
     "author": "Kim Bo-young",
     "coverUrl": "https://covers.openlibrary.org/b/id/10843754-L.jpg",
     "dateRead": "2026-03",
@@ -309,7 +351,10 @@
   },
   {
     "id": "the-seven-year-slip",
-    "title": "The Seven Year Slip",
+    "title": {
+      "en": "The Seven Year Slip",
+      "pt": "Sete Anos Entre Nós"
+    },
     "author": "Ashley Poston",
     "coverUrl": "https://covers.openlibrary.org/b/id/15098632-L.jpg",
     "dateRead": "2026-02",

@@ -196,7 +196,7 @@ function getFilteredSorted(books) {
       case "dateDesc": return (b.dateRead || "").localeCompare(a.dateRead || "");
       case "ratingDesc": return (b.rating || 0) - (a.rating || 0);
       case "ratingAsc": return (a.rating || 0) - (b.rating || 0);
-      case "titleAsc": return a.title.localeCompare(b.title);
+      case "titleAsc": return a.title[lang].localeCompare(b.title[lang], lang);
       case "yearDesc": return (b.yearReleased || 0) - (a.yearReleased || 0);
       case "yearAsc": return (a.yearReleased || 0) - (b.yearReleased || 0);
       default: return 0;
@@ -221,11 +221,12 @@ function renderList(books) {
     const trope = (b.trope && b.trope[lang]) || "";
     const sign = zodiacLabel(b.sign);
     const cover = b.coverUrl || PLACEHOLDER_COVER;
+    const title = b.title[lang];
     return `
       <article class="book-card">
-        <img class="book-card__cover" src="${cover}" alt="${b.title}" loading="lazy" onerror="this.src='${PLACEHOLDER_COVER}'" />
+        <img class="book-card__cover" src="${cover}" alt="${title}" loading="lazy" onerror="this.src='${PLACEHOLDER_COVER}'" />
         <div class="book-card__body">
-          <h3 class="book-card__title">${b.title}</h3>
+          <h3 class="book-card__title">${title}</h3>
           <p class="book-card__author">${b.author}</p>
           ${synopsis ? `<p class="book-card__synopsis">${synopsis}</p>` : ""}
           <div class="book-card__meta">
