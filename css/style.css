@@ -1,56 +1,27 @@
 /* ---------------------------------------------------------------
-   Design tokens (see dataviz skill palette.md for source values)
+   Design tokens — off-white + light pink palette
 --------------------------------------------------------------- */
 :root {
   color-scheme: light;
-  --surface-1:      #fcfcfb;
-  --page-plane:     #f9f9f7;
-  --text-primary:   #0b0b0b;
-  --text-secondary: #52514e;
-  --text-muted:     #898781;
-  --gridline:       #e1e0d9;
-  --baseline:       #c3c2b7;
-  --border:         rgba(11,11,11,0.10);
+  --surface-1:      #fdfaf8;
+  --page-plane:     #f8f0ef;
+  --text-primary:   #241c1a;
+  --text-secondary: #6b5854;
+  --text-muted:     #a3908c;
+  --gridline:       #f2dee6;
+  --baseline:       #e6c7d3;
+  --border:         rgba(36,28,26,0.10);
 
-  --series-1:       #2a78d6; /* blue - primary accent */
-  --series-1-100:   #cde2fb;
-  --series-1-250:   #86b6ef;
-  --series-2:       #eb6834; /* orange */
-  --series-3:       #1baf7a; /* aqua */
-  --series-4:       #eda100; /* yellow */
-  --series-5:       #e87ba4; /* magenta */
-  --series-7:       #4a3aa7; /* violet */
+  --series-1:       #d9578a; /* pink - primary accent */
+  --series-1-100:   #f9e1ea; /* light pink track/tag bg */
+  --series-1-250:   #efb9cf; /* mid pink */
+  --star-gold:      #d9a441;
 
   --good:           #0ca30c;
 
   --radius-card: 14px;
   --radius-sm: 8px;
   --font-sans: system-ui, -apple-system, "Segoe UI", sans-serif;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root:where(:not([data-theme="light"])) {
-    color-scheme: dark;
-    --surface-1:      #1a1a19;
-    --page-plane:     #0d0d0d;
-    --text-primary:   #ffffff;
-    --text-secondary: #c3c2b7;
-    --text-muted:     #898781;
-    --gridline:       #2c2c2a;
-    --baseline:       #383835;
-    --border:         rgba(255,255,255,0.10);
-
-    --series-1:       #3987e5;
-    --series-1-100:   #184f95;
-    --series-1-250:   #1c5cab;
-    --series-2:       #d95926;
-    --series-3:       #199e70;
-    --series-4:       #c98500;
-    --series-5:       #d55181;
-    --series-7:       #9085e9;
-
-    --good:           #0ca30c;
-  }
 }
 
 * { box-sizing: border-box; }
@@ -533,7 +504,7 @@ main {
   left: 0;
   overflow: hidden;
   white-space: nowrap;
-  color: var(--series-4);
+  color: var(--star-gold);
 }
 
 .stars__base, .stars__fill span { letter-spacing: 2px; }

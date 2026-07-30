@@ -98,29 +98,30 @@ function renderByRatingChart(books) {
   const counts = {};
   RATING_STEPS.forEach((r) => (counts[r] = 0));
   books.forEach((b) => { if (b.rating != null) counts[b.rating] = (counts[b.rating] || 0) + 1; });
-  const max = Math.max(1, ...Object.values(counts));
 
-  const bars = document.getElementById("chart-byrating");
-  const labels = document.getElementById("chart-byrating-labels");
-  bars.innerHTML = "";
-  labels.innerHTML = "";
+  const present = RATING_STEPS.filter((r) => counts[r] > 0);
+  const max = Math.max(1, ...present.map((r) => counts[r]));
 
-  RATING_STEPS.forEach((r) => {
+  const wrap = document.getElementById("chart-byrating");
+  wrap.innerHTML = "";
+
+  if (present.length === 0) {
+    wrap.innerHTML = `<span style="color:var(--text-muted);font-size:0.85rem;">—</span>`;
+    return;
+  }
+
+  present.forEach((r) => {
     const count = counts[r];
-    const height = Math.max(4, (count / max) * 110);
-    const col = document.createElement("div");
-    col.className = "barchart__col";
-    col.innerHTML = `
-      <span class="barchart__value">${count}</span>
-      <div class="barchart__bar" style="height:${height}px"></div>
+    const pct = (count / max) * 100;
+    const row = document.createElement("div");
+    row.className = "hbarchart__row";
+    row.innerHTML = `
+      <span class="hbarchart__label">${r} ★</span>
+      <div class="hbarchart__track"><div class="hbarchart__fill" style="width:${pct}%"></div></div>
+      <span class="hbarchart__value">${count}</span>
     `;
-    attachTooltip(col, () => `${r} ★: ${count}`);
-    bars.appendChild(col);
-
-    const lab = document.createElement("span");
-    lab.className = "barchart__label";
-    lab.textContent = r;
-    labels.appendChild(lab);
+    attachTooltip(row, () => `${r} ★: ${count}`);
+    wrap.appendChild(row);
   });
 }
 
