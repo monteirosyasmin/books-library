@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Books — My Bookshelf</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-page="books">
+  <div id="nav-placeholder"></div>
+
+  <main>
+    <h1 class="page-title" data-i18n="books.title"></h1>
+    <p class="page-subtitle" data-i18n="books.subtitle"></p>
+
+    <section class="dashboard" id="dashboard" aria-label="Reading stats">
+      <div class="viz-card viz-card--wide">
+        <h2 class="viz-card__title" data-i18n="dashboard.goal.title"></h2>
+        <div class="meter" id="goal-meter"></div>
+      </div>
+
+      <div class="viz-card viz-card--wide">
+        <h2 class="viz-card__title" data-i18n="dashboard.bymonth.title"></h2>
+        <div class="barchart" id="chart-bymonth"></div>
+        <div class="barchart__labels" id="chart-bymonth-labels"></div>
+      </div>
+
+      <div class="viz-card">
+        <h2 class="viz-card__title" data-i18n="dashboard.byrating.title"></h2>
+        <div class="barchart" id="chart-byrating"></div>
+        <div class="barchart__labels" id="chart-byrating-labels"></div>
+      </div>
+
+      <div class="viz-card">
+        <h2 class="viz-card__title" data-i18n="dashboard.bytrope.title"></h2>
+        <div class="hbarchart" id="chart-bytrope"></div>
+      </div>
+    </section>
+
+    <section class="controls" id="controls">
+      <div class="controls__group">
+        <label data-i18n="controls.genre"></label>
+        <select id="filter-genre"></select>
+      </div>
+      <div class="controls__group">
+        <label data-i18n="controls.trope"></label>
+        <select id="filter-trope"></select>
+      </div>
+      <div class="controls__group">
+        <label data-i18n="controls.rating"></label>
+        <select id="filter-rating"></select>
+      </div>
+      <div class="controls__group">
+        <label data-i18n="controls.sign"></label>
+        <select id="filter-sign"></select>
+      </div>
+      <div class="controls__group">
+        <label data-i18n="controls.sort"></label>
+        <select id="sort-select">
+          <option value="dateDesc" data-i18n="sort.dateDesc"></option>
+          <option value="dateAsc" data-i18n="sort.dateAsc"></option>
+          <option value="ratingDesc" data-i18n="sort.ratingDesc"></option>
+          <option value="ratingAsc" data-i18n="sort.ratingAsc"></option>
+          <option value="titleAsc" data-i18n="sort.titleAsc"></option>
+          <option value="yearDesc" data-i18n="sort.yearDesc"></option>
+          <option value="yearAsc" data-i18n="sort.yearAsc"></option>
+        </select>
+      </div>
+      <button type="button" class="controls__reset" id="reset-filters" data-i18n="controls.reset"></button>
+      <span class="controls__count" id="results-count"></span>
+    </section>
+
+    <div class="book-list" id="book-list"></div>
+  </main>
+
+  <div id="footer-placeholder"></div>
+  <div class="chart-tooltip" id="chart-tooltip"></div>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/books.js"></script>
+</body>
+</html>
