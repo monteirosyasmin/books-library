@@ -1,17 +1,332 @@
 [
-  { "id": "ready-or-not", "title": "Ready or Not", "author": "Cara Bastone", "coverUrl": null, "dateRead": null, "synopsis": { "en": null, "pt": null }, "yearReleased": null, "genre": { "en": null, "pt": null }, "trope": { "en": null, "pt": null }, "rating": null, "sign": null },
-  { "id": "sweet-heat", "title": "Sweet Heat", "author": "Bolu Babalola", "coverUrl": null, "dateRead": null, "synopsis": { "en": null, "pt": null }, "yearReleased": null, "genre": { "en": null, "pt": null }, "trope": { "en": null, "pt": null }, "rating": null, "sign": null },
-  { "id": "honey-and-spice", "title": "Honey & Spice", "author": "Bolu Babalola", "coverUrl": null, "dateRead": null, "synopsis": { "en": null, "pt": null }, "yearReleased": null, "genre": { "en": null, "pt": null }, "trope": { "en": null, "pt": null }, "rating": null, "sign": null },
-  { "id": "the-girl-i-was", "title": "The Girl I Was", "author": "Jeneva Rose", "coverUrl": null, "dateRead": null, "synopsis": { "en": null, "pt": null }, "yearReleased": null, "genre": { "en": null, "pt": null }, "trope": { "en": null, "pt": null }, "rating": null, "sign": null },
-  { "id": "northern-stars", "title": "Northern Stars", "author": "Brittainy C. Cherry", "coverUrl": null, "dateRead": null, "synopsis": { "en": null, "pt": null }, "yearReleased": null, "genre": { "en": null, "pt": null }, "trope": { "en": null, "pt": null }, "rating": null, "sign": null },
-  { "id": "estupido-cupido", "title": "Estúpido Cupido", "author": "Ayslan Monteiro", "coverUrl": null, "dateRead": null, "synopsis": { "en": null, "pt": null }, "yearReleased": null, "genre": { "en": null, "pt": null }, "trope": { "en": null, "pt": null }, "rating": null, "sign": null },
-  { "id": "eastern-lights", "title": "Eastern Lights", "author": "Brittainy C. Cherry", "coverUrl": null, "dateRead": null, "synopsis": { "en": null, "pt": null }, "yearReleased": null, "genre": { "en": null, "pt": null }, "trope": { "en": null, "pt": null }, "rating": null, "sign": null },
-  { "id": "southern-storms", "title": "Southern Storms", "author": "Brittainy C. Cherry", "coverUrl": null, "dateRead": null, "synopsis": { "en": null, "pt": null }, "yearReleased": null, "genre": { "en": null, "pt": null }, "trope": { "en": null, "pt": null }, "rating": null, "sign": null },
-  { "id": "our-perfect-storm", "title": "Our Perfect Storm", "author": "Carley Fortune", "coverUrl": null, "dateRead": null, "synopsis": { "en": null, "pt": null }, "yearReleased": null, "genre": { "en": null, "pt": null }, "trope": { "en": null, "pt": null }, "rating": null, "sign": null },
-  { "id": "western-waves", "title": "Western Waves", "author": "Brittainy C. Cherry", "coverUrl": null, "dateRead": null, "synopsis": { "en": null, "pt": null }, "yearReleased": null, "genre": { "en": null, "pt": null }, "trope": { "en": null, "pt": null }, "rating": null, "sign": null },
-  { "id": "untamed", "title": "Untamed", "author": "Glennon Doyle", "coverUrl": null, "dateRead": null, "synopsis": { "en": null, "pt": null }, "yearReleased": null, "genre": { "en": null, "pt": null }, "trope": { "en": null, "pt": null }, "rating": null, "sign": null },
-  { "id": "the-unmaking-of-june-farrow", "title": "The Unmaking of June Farrow", "author": "Adrienne Young", "coverUrl": null, "dateRead": null, "synopsis": { "en": null, "pt": null }, "yearReleased": null, "genre": { "en": null, "pt": null }, "trope": { "en": null, "pt": null }, "rating": null, "sign": null },
-  { "id": "odisseia-estelar", "title": "Odisseia Estelar", "author": "Kim Bo-young", "coverUrl": null, "dateRead": null, "synopsis": { "en": null, "pt": null }, "yearReleased": null, "genre": { "en": null, "pt": null }, "trope": { "en": null, "pt": null }, "rating": null, "sign": null },
-  { "id": "im-waiting-for-you", "title": "I'm Waiting for You and Other Stories", "author": "Kim Bo-young", "coverUrl": null, "dateRead": null, "synopsis": { "en": null, "pt": null }, "yearReleased": null, "genre": { "en": null, "pt": null }, "trope": { "en": null, "pt": null }, "rating": null, "sign": null },
-  { "id": "the-seven-year-slip", "title": "The Seven Year Slip", "author": "Ashley Poston", "coverUrl": null, "dateRead": null, "synopsis": { "en": null, "pt": null }, "yearReleased": null, "genre": { "en": null, "pt": null }, "trope": { "en": null, "pt": null }, "rating": null, "sign": null }
+  {
+    "id": "ready-or-not",
+    "title": "Ready or Not",
+    "author": "Cara Bastone",
+    "coverUrl": "https://covers.openlibrary.org/b/id/14578799-L.jpg",
+    "dateRead": "2026-07",
+    "synopsis": {
+      "en": "Best friends navigate an unplanned pregnancy that reveals long-hidden feelings between them.",
+      "pt": "Melhores amigos enfrentam uma gravidez inesperada que revela sentimentos escondidos há muito tempo."
+    },
+    "yearReleased": 2024,
+    "genre": {
+      "en": "Contemporary Romance",
+      "pt": "Romance Contemporâneo"
+    },
+    "trope": {
+      "en": "Friends to lovers",
+      "pt": "Amigos para amantes"
+    },
+    "rating": 4,
+    "sign": "cancer"
+  },
+  {
+    "id": "sweet-heat",
+    "title": "Sweet Heat",
+    "author": "Bolu Babalola",
+    "coverUrl": "https://m.media-amazon.com/images/P/0063306980.01._SX500_.jpg",
+    "dateRead": "2026-07",
+    "synopsis": {
+      "en": "A podcast advice-host's ex resurfaces at her best friend's wedding, reigniting old feelings.",
+      "pt": "O ex de uma apresentadora de podcast de conselhos reaparece no casamento da melhor amiga dela, reacendendo velhos sentimentos."
+    },
+    "yearReleased": 2025,
+    "genre": {
+      "en": "Contemporary Romance",
+      "pt": "Romance Contemporâneo"
+    },
+    "trope": {
+      "en": "Second chance romance",
+      "pt": "Segunda chance no amor"
+    },
+    "rating": 5,
+    "sign": null
+  },
+  {
+    "id": "honey-and-spice",
+    "title": "Honey & Spice",
+    "author": "Bolu Babalola",
+    "coverUrl": "https://covers.openlibrary.org/b/id/12801037-L.jpg",
+    "dateRead": "2026-07",
+    "synopsis": {
+      "en": "A campus radio host and a serial dater fake-date to protect their reputations.",
+      "pt": "Uma apresentadora de rádio universitária e um conquistador em série fingem namorar para proteger suas reputações."
+    },
+    "yearReleased": 2022,
+    "genre": {
+      "en": "Contemporary Romance",
+      "pt": "Romance Contemporâneo"
+    },
+    "trope": {
+      "en": "Fake dating",
+      "pt": "Namoro de fachada"
+    },
+    "rating": 5,
+    "sign": "libra"
+  },
+  {
+    "id": "the-girl-i-was",
+    "title": "The Girl I Was",
+    "author": "Jeneva Rose",
+    "coverUrl": "https://covers.openlibrary.org/b/id/15230157-L.jpg",
+    "dateRead": "2026-07",
+    "synopsis": {
+      "en": "A struggling woman is pulled back to 2002 to confront and reconcile with her teenage self.",
+      "pt": "Uma mulher em dificuldades é levada de volta a 2002 para confrontar e se reconciliar com sua versão adolescente."
+    },
+    "yearReleased": 2025,
+    "genre": {
+      "en": "Women's Fiction",
+      "pt": "Ficção Feminina"
+    },
+    "trope": {
+      "en": "Meet your younger self",
+      "pt": "Encontro com o eu mais jovem"
+    },
+    "rating": 4,
+    "sign": "cancer"
+  },
+  {
+    "id": "northern-stars",
+    "title": "Northern Stars",
+    "author": "Brittainy C. Cherry",
+    "coverUrl": "https://m.media-amazon.com/images/P/B0B8LD53F7.01._SX500_.jpg",
+    "dateRead": null,
+    "synopsis": {
+      "en": "Childhood sweethearts reunite years after fame and heartbreak drove them apart.",
+      "pt": "Amigos de infância se reencontram anos depois de a fama e um coração partido os separarem."
+    },
+    "yearReleased": 2022,
+    "genre": {
+      "en": "Contemporary Romance",
+      "pt": "Romance Contemporâneo"
+    },
+    "trope": {
+      "en": "Second chance romance",
+      "pt": "Segunda chance no amor"
+    },
+    "rating": null,
+    "sign": null
+  },
+  {
+    "id": "estupido-cupido",
+    "title": "Estúpido Cupido",
+    "author": "Ayslan Monteiro",
+    "coverUrl": "https://m.media-amazon.com/images/P/6559704726.01._SX500_.jpg",
+    "dateRead": null,
+    "synopsis": {
+      "en": "An immortal, closeted Cupid who unites only straight couples longs for a love of his own.",
+      "pt": "Um Cupido imortal e no armário, que só une casais héteros, deseja um amor só seu."
+    },
+    "yearReleased": 2025,
+    "genre": {
+      "en": "Romantic Comedy",
+      "pt": "Comédia Romântica"
+    },
+    "trope": {
+      "en": "Forbidden love mythology retelling",
+      "pt": "Releitura mitológica de amor proibido"
+    },
+    "rating": null,
+    "sign": null
+  },
+  {
+    "id": "eastern-lights",
+    "title": "Eastern Lights",
+    "author": "Brittainy C. Cherry",
+    "coverUrl": "https://covers.openlibrary.org/b/id/13461300-L.jpg",
+    "dateRead": null,
+    "synopsis": {
+      "en": "A guarded wealthy bachelor and a determined woman clash, then fall for each other in NYC.",
+      "pt": "Um bilionário reservado e uma mulher determinada se chocam e depois se apaixonam em Nova York."
+    },
+    "yearReleased": 2021,
+    "genre": {
+      "en": "Contemporary Romance",
+      "pt": "Romance Contemporâneo"
+    },
+    "trope": {
+      "en": "Billionaire romance",
+      "pt": "Romance com bilionário"
+    },
+    "rating": null,
+    "sign": null
+  },
+  {
+    "id": "southern-storms",
+    "title": "Southern Storms",
+    "author": "Brittainy C. Cherry",
+    "coverUrl": "https://covers.openlibrary.org/b/id/12993551-L.jpg",
+    "dateRead": null,
+    "synopsis": {
+      "en": "A small town's black sheep returns home and finds love with an old friend.",
+      "pt": "A ovelha negra de uma cidade pequena volta para casa e encontra o amor com uma velha amiga."
+    },
+    "yearReleased": 2020,
+    "genre": {
+      "en": "Contemporary Romance",
+      "pt": "Romance Contemporâneo"
+    },
+    "trope": {
+      "en": "Small town romance",
+      "pt": "Romance de cidade pequena"
+    },
+    "rating": null,
+    "sign": null
+  },
+  {
+    "id": "our-perfect-storm",
+    "title": "Our Perfect Storm",
+    "author": "Carley Fortune",
+    "coverUrl": "https://covers.openlibrary.org/b/id/15235162-L.jpg",
+    "dateRead": null,
+    "synopsis": {
+      "en": "Lifelong best friends' bond shifts into romance during one turbulent week together.",
+      "pt": "O vínculo de melhores amigos de longa data se transforma em romance durante uma semana turbulenta juntos."
+    },
+    "yearReleased": 2026,
+    "genre": {
+      "en": "Contemporary Romance",
+      "pt": "Romance Contemporâneo"
+    },
+    "trope": {
+      "en": "Friends to lovers",
+      "pt": "Amigos para amantes"
+    },
+    "rating": null,
+    "sign": null
+  },
+  {
+    "id": "western-waves",
+    "title": "Western Waves",
+    "author": "Brittainy C. Cherry",
+    "coverUrl": "https://covers.openlibrary.org/b/id/12993530-L.jpg",
+    "dateRead": null,
+    "synopsis": {
+      "en": "Strangers thrust into an arranged marriage slowly discover unexpected, real love.",
+      "pt": "Estranhos jogados em um casamento arranjado descobrem aos poucos um amor real e inesperado."
+    },
+    "yearReleased": 2021,
+    "genre": {
+      "en": "Contemporary Romance",
+      "pt": "Romance Contemporâneo"
+    },
+    "trope": {
+      "en": "Arranged marriage",
+      "pt": "Casamento arranjado"
+    },
+    "rating": null,
+    "sign": null
+  },
+  {
+    "id": "untamed",
+    "title": "Untamed",
+    "author": "Glennon Doyle",
+    "coverUrl": "https://covers.openlibrary.org/b/id/9295686-L.jpg",
+    "dateRead": null,
+    "synopsis": {
+      "en": "A memoir on abandoning a conventional life to trust one's own truth and desire.",
+      "pt": "Um memoir sobre abandonar uma vida convencional para confiar na própria verdade e nos próprios desejos."
+    },
+    "yearReleased": 2020,
+    "genre": {
+      "en": "Memoir",
+      "pt": "Memórias"
+    },
+    "trope": {
+      "en": "Personal memoir",
+      "pt": "Memórias pessoais"
+    },
+    "rating": null,
+    "sign": null
+  },
+  {
+    "id": "the-unmaking-of-june-farrow",
+    "title": "The Unmaking of June Farrow",
+    "author": "Adrienne Young",
+    "coverUrl": "https://covers.openlibrary.org/b/id/14434055-L.jpg",
+    "dateRead": null,
+    "synopsis": {
+      "en": "A woman slips through a mysterious door into her family's tangled, secretive past.",
+      "pt": "Uma mulher atravessa uma porta misteriosa rumo ao passado secreto e emaranhado de sua família."
+    },
+    "yearReleased": 2023,
+    "genre": {
+      "en": "Magical Realism",
+      "pt": "Realismo Mágico"
+    },
+    "trope": {
+      "en": "Time-slip mystery",
+      "pt": "Mistério com deslize no tempo"
+    },
+    "rating": null,
+    "sign": null
+  },
+  {
+    "id": "odisseia-estelar",
+    "title": "Odisseia Estelar",
+    "author": "Kim Bo-young",
+    "coverUrl": "https://m.media-amazon.com/images/P/8556512771.01._SX500_.jpg",
+    "dateRead": null,
+    "synopsis": {
+      "en": "Three linked stories explore love, fate, and existence across vast stretches of time.",
+      "pt": "Três histórias interligadas exploram amor, destino e existência através de vastas extensões de tempo."
+    },
+    "yearReleased": 2025,
+    "genre": {
+      "en": "Science Fiction",
+      "pt": "Ficção Científica"
+    },
+    "trope": {
+      "en": "Time dilation love story",
+      "pt": "História de amor com dilatação do tempo"
+    },
+    "rating": null,
+    "sign": null
+  },
+  {
+    "id": "im-waiting-for-you",
+    "title": "I'm Waiting for You and Other Stories",
+    "author": "Kim Bo-young",
+    "coverUrl": "https://covers.openlibrary.org/b/id/10843754-L.jpg",
+    "dateRead": null,
+    "synopsis": {
+      "en": "A couple race across space and time trying to reunite in time for their wedding.",
+      "pt": "Um casal corre pelo espaço e pelo tempo tentando se reencontrar a tempo do próprio casamento."
+    },
+    "yearReleased": 2021,
+    "genre": {
+      "en": "Science Fiction",
+      "pt": "Ficção Científica"
+    },
+    "trope": {
+      "en": "Time dilation love story",
+      "pt": "História de amor com dilatação do tempo"
+    },
+    "rating": null,
+    "sign": null
+  },
+  {
+    "id": "the-seven-year-slip",
+    "title": "The Seven Year Slip",
+    "author": "Ashley Poston",
+    "coverUrl": "https://covers.openlibrary.org/b/id/15098632-L.jpg",
+    "dateRead": null,
+    "synopsis": {
+      "en": "A grieving woman falls for a man who exists seven years in her past.",
+      "pt": "Uma mulher enlutada se apaixona por um homem que existe sete anos no passado dela."
+    },
+    "yearReleased": 2023,
+    "genre": {
+      "en": "Contemporary Romance",
+      "pt": "Romance Contemporâneo"
+    },
+    "trope": {
+      "en": "Time travel romance",
+      "pt": "Romance com viagem no tempo"
+    },
+    "rating": null,
+    "sign": null
+  }
 ]
