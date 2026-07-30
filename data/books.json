@@ -92,7 +92,7 @@
     "title": "Northern Stars",
     "author": "Brittainy C. Cherry",
     "coverUrl": "https://m.media-amazon.com/images/P/B0B8LD53F7.01._SX500_.jpg",
-    "dateRead": null,
+    "dateRead": "2026-06",
     "synopsis": {
       "en": "Childhood sweethearts reunite years after fame and heartbreak drove them apart.",
       "pt": "Amigos de infância se reencontram anos depois de a fama e um coração partido os separarem."
@@ -106,7 +106,7 @@
       "en": "Second chance romance",
       "pt": "Segunda chance no amor"
     },
-    "rating": null,
+    "rating": 5,
     "sign": null
   },
   {
@@ -114,7 +114,7 @@
     "title": "Estúpido Cupido",
     "author": "Ayslan Monteiro",
     "coverUrl": "https://m.media-amazon.com/images/P/6559704726.01._SX500_.jpg",
-    "dateRead": null,
+    "dateRead": "2026-06",
     "synopsis": {
       "en": "An immortal, closeted Cupid who unites only straight couples longs for a love of his own.",
       "pt": "Um Cupido imortal e no armário, que só une casais héteros, deseja um amor só seu."
@@ -128,15 +128,15 @@
       "en": "Forbidden love mythology retelling",
       "pt": "Releitura mitológica de amor proibido"
     },
-    "rating": null,
-    "sign": null
+    "rating": 4,
+    "sign": "gemini"
   },
   {
     "id": "eastern-lights",
     "title": "Eastern Lights",
     "author": "Brittainy C. Cherry",
     "coverUrl": "https://covers.openlibrary.org/b/id/13461300-L.jpg",
-    "dateRead": null,
+    "dateRead": "2026-06",
     "synopsis": {
       "en": "A guarded wealthy bachelor and a determined woman clash, then fall for each other in NYC.",
       "pt": "Um bilionário reservado e uma mulher determinada se chocam e depois se apaixonam em Nova York."
@@ -150,7 +150,7 @@
       "en": "Billionaire romance",
       "pt": "Romance com bilionário"
     },
-    "rating": null,
+    "rating": 5,
     "sign": null
   },
   {
@@ -158,7 +158,7 @@
     "title": "Southern Storms",
     "author": "Brittainy C. Cherry",
     "coverUrl": "https://covers.openlibrary.org/b/id/12993551-L.jpg",
-    "dateRead": null,
+    "dateRead": "2026-06",
     "synopsis": {
       "en": "A small town's black sheep returns home and finds love with an old friend.",
       "pt": "A ovelha negra de uma cidade pequena volta para casa e encontra o amor com uma velha amiga."
@@ -172,7 +172,7 @@
       "en": "Small town romance",
       "pt": "Romance de cidade pequena"
     },
-    "rating": null,
+    "rating": 5,
     "sign": null
   },
   {
@@ -180,7 +180,7 @@
     "title": "Our Perfect Storm",
     "author": "Carley Fortune",
     "coverUrl": "https://covers.openlibrary.org/b/id/15235162-L.jpg",
-    "dateRead": null,
+    "dateRead": "2026-05",
     "synopsis": {
       "en": "Lifelong best friends' bond shifts into romance during one turbulent week together.",
       "pt": "O vínculo de melhores amigos de longa data se transforma em romance durante uma semana turbulenta juntos."
@@ -194,7 +194,7 @@
       "en": "Friends to lovers",
       "pt": "Amigos para amantes"
     },
-    "rating": null,
+    "rating": 4,
     "sign": null
   },
   {
@@ -202,7 +202,7 @@
     "title": "Western Waves",
     "author": "Brittainy C. Cherry",
     "coverUrl": "https://covers.openlibrary.org/b/id/12993530-L.jpg",
-    "dateRead": null,
+    "dateRead": "2026-05",
     "synopsis": {
       "en": "Strangers thrust into an arranged marriage slowly discover unexpected, real love.",
       "pt": "Estranhos jogados em um casamento arranjado descobrem aos poucos um amor real e inesperado."
@@ -216,15 +216,15 @@
       "en": "Arranged marriage",
       "pt": "Casamento arranjado"
     },
-    "rating": null,
-    "sign": null
+    "rating": 5,
+    "sign": "taurus"
   },
   {
     "id": "untamed",
     "title": "Untamed",
     "author": "Glennon Doyle",
     "coverUrl": "https://covers.openlibrary.org/b/id/9295686-L.jpg",
-    "dateRead": null,
+    "dateRead": "2026-04",
     "synopsis": {
       "en": "A memoir on abandoning a conventional life to trust one's own truth and desire.",
       "pt": "Um memoir sobre abandonar uma vida convencional para confiar na própria verdade e nos próprios desejos."
@@ -238,15 +238,15 @@
       "en": "Personal memoir",
       "pt": "Memórias pessoais"
     },
-    "rating": null,
-    "sign": null
+    "rating": 4,
+    "sign": "aquarius"
   },
   {
     "id": "the-unmaking-of-june-farrow",
     "title": "The Unmaking of June Farrow",
     "author": "Adrienne Young",
     "coverUrl": "https://covers.openlibrary.org/b/id/14434055-L.jpg",
-    "dateRead": null,
+    "dateRead": "2026-03",
     "synopsis": {
       "en": "A woman slips through a mysterious door into her family's tangled, secretive past.",
       "pt": "Uma mulher atravessa uma porta misteriosa rumo ao passado secreto e emaranhado de sua família."
@@ -260,15 +260,15 @@
       "en": "Time-slip mystery",
       "pt": "Mistério com deslize no tempo"
     },
-    "rating": null,
-    "sign": null
+    "rating": 3.5,
+    "sign": "pisces"
   },
   {
     "id": "odisseia-estelar",
     "title": "Odisseia Estelar",
     "author": "Kim Bo-young",
     "coverUrl": "https://m.media-amazon.com/images/P/8556512771.01._SX500_.jpg",
-    "dateRead": null,
+    "dateRead": "2026-03",
     "synopsis": {
       "en": "Three linked stories explore love, fate, and existence across vast stretches of time.",
       "pt": "Três histórias interligadas exploram amor, destino e existência através de vastas extensões de tempo."
@@ -282,15 +282,15 @@
       "en": "Time dilation love story",
       "pt": "História de amor com dilatação do tempo"
     },
-    "rating": null,
-    "sign": null
+    "rating": 4,
+    "sign": "aquarius"
   },
   {
     "id": "im-waiting-for-you",
     "title": "I'm Waiting for You and Other Stories",
     "author": "Kim Bo-young",
     "coverUrl": "https://covers.openlibrary.org/b/id/10843754-L.jpg",
-    "dateRead": null,
+    "dateRead": "2026-03",
     "synopsis": {
       "en": "A couple race across space and time trying to reunite in time for their wedding.",
       "pt": "Um casal corre pelo espaço e pelo tempo tentando se reencontrar a tempo do próprio casamento."
@@ -304,7 +304,7 @@
       "en": "Time dilation love story",
       "pt": "História de amor com dilatação do tempo"
     },
-    "rating": null,
+    "rating": 3,
     "sign": null
   },
   {
@@ -312,7 +312,7 @@
     "title": "The Seven Year Slip",
     "author": "Ashley Poston",
     "coverUrl": "https://covers.openlibrary.org/b/id/15098632-L.jpg",
-    "dateRead": null,
+    "dateRead": "2026-02",
     "synopsis": {
       "en": "A grieving woman falls for a man who exists seven years in her past.",
       "pt": "Uma mulher enlutada se apaixona por um homem que existe sete anos no passado dela."
@@ -326,7 +326,7 @@
       "en": "Time travel romance",
       "pt": "Romance com viagem no tempo"
     },
-    "rating": null,
-    "sign": null
+    "rating": 5,
+    "sign": "capricorn"
   }
 ]
