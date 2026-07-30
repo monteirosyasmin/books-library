@@ -7,7 +7,7 @@ const I18N = {
     "nav.about": "About Me",
 
     "books.title": "Books",
-    "books.subtitle": "Every book I've read, tracked one card at a time.",
+    "books.subtitle": "Every book I've read.",
 
     "authors.title": "Authors",
     "about.title": "About Me",
@@ -59,7 +59,7 @@ const I18N = {
     "nav.about": "Sobre Mim",
 
     "books.title": "Livros",
-    "books.subtitle": "Todos os livros que já li, um card de cada vez.",
+    "books.subtitle": "Todos os livros que já li.",
 
     "authors.title": "Autoras",
     "about.title": "Sobre Mim",
